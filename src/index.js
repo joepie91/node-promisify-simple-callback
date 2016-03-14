@@ -23,8 +23,6 @@ module.exports = function(method, defaults = []) {
 				resolve(result);
 			}
 			
-			console.log(args);
-			
 			// Synchronous errors are caught and propagated by Bluebird's `new Promise` already.
 			method.apply(this, args);
 		})
