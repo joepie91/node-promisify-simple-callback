@@ -1,6 +1,6 @@
 {
   "name": "promisify-simple-callback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Promisifies a function that expects a callback with a single (result) argument",
   "main": "index.js",
   "scripts": {
